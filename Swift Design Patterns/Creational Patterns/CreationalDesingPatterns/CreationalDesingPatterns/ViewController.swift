@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  CreationalSwiftPattersn
+//  CreationalDesingPatterns
 //
 //  Created by Kaloyan Petrov on 11/6/15.
 //  Copyright © 2015 Kaloyan Petrov. All rights reserved.

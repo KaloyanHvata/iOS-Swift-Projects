@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EF7AABDD1BECD44000DC4315"
-               BuildableName = "CreationalSwiftPattersn.app"
-               BlueprintName = "CreationalSwiftPattersn"
-               ReferencedContainer = "container:CreationalSwiftPattersn.xcodeproj">
+               BlueprintIdentifier = "EFF93A3F1BECD52C0016C2D0"
+               BuildableName = "CreationalDesingPatterns.app"
+               BlueprintName = "CreationalDesingPatterns"
+               ReferencedContainer = "container:CreationalDesingPatterns.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EF7AABF11BECD44000DC4315"
-               BuildableName = "CreationalSwiftPattersnTests.xctest"
-               BlueprintName = "CreationalSwiftPattersnTests"
-               ReferencedContainer = "container:CreationalSwiftPattersn.xcodeproj">
+               BlueprintIdentifier = "EFF93A531BECD52C0016C2D0"
+               BuildableName = "CreationalDesingPatternsTests.xctest"
+               BlueprintName = "CreationalDesingPatternsTests"
+               ReferencedContainer = "container:CreationalDesingPatterns.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EF7AABFC1BECD44000DC4315"
-               BuildableName = "CreationalSwiftPattersnUITests.xctest"
-               BlueprintName = "CreationalSwiftPattersnUITests"
-               ReferencedContainer = "container:CreationalSwiftPattersn.xcodeproj">
+               BlueprintIdentifier = "EFF93A5E1BECD52C0016C2D0"
+               BuildableName = "CreationalDesingPatternsUITests.xctest"
+               BlueprintName = "CreationalDesingPatternsUITests"
+               ReferencedContainer = "container:CreationalDesingPatterns.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EF7AABDD1BECD44000DC4315"
-            BuildableName = "CreationalSwiftPattersn.app"
-            BlueprintName = "CreationalSwiftPattersn"
-            ReferencedContainer = "container:CreationalSwiftPattersn.xcodeproj">
+            BlueprintIdentifier = "EFF93A3F1BECD52C0016C2D0"
+            BuildableName = "CreationalDesingPatterns.app"
+            BlueprintName = "CreationalDesingPatterns"
+            ReferencedContainer = "container:CreationalDesingPatterns.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EF7AABDD1BECD44000DC4315"
-            BuildableName = "CreationalSwiftPattersn.app"
-            BlueprintName = "CreationalSwiftPattersn"
-            ReferencedContainer = "container:CreationalSwiftPattersn.xcodeproj">
+            BlueprintIdentifier = "EFF93A3F1BECD52C0016C2D0"
+            BuildableName = "CreationalDesingPatterns.app"
+            BlueprintName = "CreationalDesingPatterns"
+            ReferencedContainer = "container:CreationalDesingPatterns.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EF7AABDD1BECD44000DC4315"
-            BuildableName = "CreationalSwiftPattersn.app"
-            BlueprintName = "CreationalSwiftPattersn"
-            ReferencedContainer = "container:CreationalSwiftPattersn.xcodeproj">
+            BlueprintIdentifier = "EFF93A3F1BECD52C0016C2D0"
+            BuildableName = "CreationalDesingPatterns.app"
+            BlueprintName = "CreationalDesingPatterns"
+            ReferencedContainer = "container:CreationalDesingPatterns.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

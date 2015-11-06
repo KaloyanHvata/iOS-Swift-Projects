@@ -1,6 +1,6 @@
 //
-//  CreationalSwiftPattersnUITests.swift
-//  CreationalSwiftPattersnUITests
+//  CreationalDesingPatternsUITests.swift
+//  CreationalDesingPatternsUITests
 //
 //  Created by Kaloyan Petrov on 11/6/15.
 //  Copyright © 2015 Kaloyan Petrov. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class CreationalSwiftPattersnUITests: XCTestCase {
+class CreationalDesingPatternsUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

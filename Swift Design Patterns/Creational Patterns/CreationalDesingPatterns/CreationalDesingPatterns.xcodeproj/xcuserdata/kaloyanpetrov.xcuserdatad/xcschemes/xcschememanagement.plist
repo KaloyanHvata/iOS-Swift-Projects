@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CreationalSwiftPattersn.xcscheme</key>
+		<key>CreationalDesingPatterns.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>EF7AABDD1BECD44000DC4315</key>
+		<key>EFF93A3F1BECD52C0016C2D0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EF7AABF11BECD44000DC4315</key>
+		<key>EFF93A531BECD52C0016C2D0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EF7AABFC1BECD44000DC4315</key>
+		<key>EFF93A5E1BECD52C0016C2D0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
