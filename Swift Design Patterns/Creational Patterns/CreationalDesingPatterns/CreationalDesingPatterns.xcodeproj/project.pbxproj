@@ -14,6 +14,7 @@
 		EFF93A4E1BECD52C0016C2D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF93A4C1BECD52C0016C2D0 /* LaunchScreen.storyboard */; };
 		EFF93A591BECD52C0016C2D0 /* CreationalDesingPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF93A581BECD52C0016C2D0 /* CreationalDesingPatternsTests.swift */; };
 		EFF93A641BECD52C0016C2D0 /* CreationalDesingPatternsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF93A631BECD52C0016C2D0 /* CreationalDesingPatternsUITests.swift */; };
+		EFF93A731BECD6C50016C2D0 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF93A721BECD6C50016C2D0 /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EFF93A5F1BECD52C0016C2D0 /* CreationalDesingPatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreationalDesingPatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF93A631BECD52C0016C2D0 /* CreationalDesingPatternsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationalDesingPatternsUITests.swift; sourceTree = "<group>"; };
 		EFF93A651BECD52C0016C2D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFF93A721BECD6C50016C2D0 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				EFF93A421BECD52C0016C2D0 /* CreationalDesingPatterns */,
+				EFF93A711BECD6A60016C2D0 /* Design Patterns */,
 				EFF93A571BECD52C0016C2D0 /* CreationalDesingPatternsTests */,
 				EFF93A621BECD52C0016C2D0 /* CreationalDesingPatternsUITests */,
 				EFF93A411BECD52C0016C2D0 /* Products */,
@@ -123,6 +126,15 @@
 				EFF93A651BECD52C0016C2D0 /* Info.plist */,
 			);
 			path = CreationalDesingPatternsUITests;
+			sourceTree = "<group>";
+		};
+		EFF93A711BECD6A60016C2D0 /* Design Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				EFF93A721BECD6C50016C2D0 /* Singleton.swift */,
+			);
+			name = "Design Patterns";
+			path = CreationalDesingPatterns;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFF93A461BECD52C0016C2D0 /* ViewController.swift in Sources */,
+				EFF93A731BECD6C50016C2D0 /* Singleton.swift in Sources */,
 				EFF93A441BECD52C0016C2D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +497,7 @@
 				EFF93A6A1BECD52C0016C2D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFF93A6B1BECD52C0016C2D0 /* Build configuration list for PBXNativeTarget "CreationalDesingPatternsTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +506,7 @@
 				EFF93A6D1BECD52C0016C2D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFF93A6E1BECD52C0016C2D0 /* Build configuration list for PBXNativeTarget "CreationalDesingPatternsUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +515,7 @@
 				EFF93A701BECD52C0016C2D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
