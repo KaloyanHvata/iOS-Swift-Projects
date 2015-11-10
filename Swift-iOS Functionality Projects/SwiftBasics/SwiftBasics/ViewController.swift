@@ -53,6 +53,13 @@ class ViewController: UIViewController {
             print("\(key):\(value)")
         }
         
+        //Do/While or in Swift a repeat/while loop
+        var x = 1
+        repeat {
+            print(x)
+            x++
+        } while x <= 10
+        
     }
 
     override func didReceiveMemoryWarning() {

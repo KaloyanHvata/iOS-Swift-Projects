@@ -14,6 +14,7 @@
 		EF2738A31BEB5CDA00A63637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2738A11BEB5CDA00A63637 /* LaunchScreen.storyboard */; };
 		EF2738AE1BEB5CDA00A63637 /* SwiftBasicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2738AD1BEB5CDA00A63637 /* SwiftBasicsTests.swift */; };
 		EF2738B91BEB5CDA00A63637 /* SwiftBasicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2738B81BEB5CDA00A63637 /* SwiftBasicsUITests.swift */; };
+		EFEE059F1BF1E02C00DA2DD6 /* CollectionTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE059E1BF1E02C00DA2DD6 /* CollectionTypesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EF2738B41BEB5CDA00A63637 /* SwiftBasicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBasicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF2738B81BEB5CDA00A63637 /* SwiftBasicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBasicsUITests.swift; sourceTree = "<group>"; };
 		EF2738BA1BEB5CDA00A63637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFEE059E1BF1E02C00DA2DD6 /* CollectionTypesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionTypesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,10 @@
 		EF2738971BEB5CDA00A63637 /* SwiftBasics */ = {
 			isa = PBXGroup;
 			children = (
+				EFEE05A01BF2231A00DA2DD6 /* Functions */,
+				EFEE059B1BF1DE7F00DA2DD6 /* Collection Types */,
+				EFEE059A1BF1DE6D00DA2DD6 /* Basic Syntax */,
 				EF2738981BEB5CDA00A63637 /* AppDelegate.swift */,
-				EF27389A1BEB5CDA00A63637 /* ViewController.swift */,
 				EF27389C1BEB5CDA00A63637 /* Main.storyboard */,
 				EF27389F1BEB5CDA00A63637 /* Assets.xcassets */,
 				EF2738A11BEB5CDA00A63637 /* LaunchScreen.storyboard */,
@@ -123,6 +127,29 @@
 				EF2738BA1BEB5CDA00A63637 /* Info.plist */,
 			);
 			path = SwiftBasicsUITests;
+			sourceTree = "<group>";
+		};
+		EFEE059A1BF1DE6D00DA2DD6 /* Basic Syntax */ = {
+			isa = PBXGroup;
+			children = (
+				EF27389A1BEB5CDA00A63637 /* ViewController.swift */,
+			);
+			name = "Basic Syntax";
+			sourceTree = "<group>";
+		};
+		EFEE059B1BF1DE7F00DA2DD6 /* Collection Types */ = {
+			isa = PBXGroup;
+			children = (
+				EFEE059E1BF1E02C00DA2DD6 /* CollectionTypesViewController.swift */,
+			);
+			name = "Collection Types";
+			sourceTree = "<group>";
+		};
+		EFEE05A01BF2231A00DA2DD6 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Functions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF27389B1BEB5CDA00A63637 /* ViewController.swift in Sources */,
+				EFEE059F1BF1E02C00DA2DD6 /* CollectionTypesViewController.swift in Sources */,
 				EF2738991BEB5CDA00A63637 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +512,7 @@
 				EF2738BF1BEB5CDA00A63637 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF2738C01BEB5CDA00A63637 /* Build configuration list for PBXNativeTarget "SwiftBasicsTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +521,7 @@
 				EF2738C21BEB5CDA00A63637 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF2738C31BEB5CDA00A63637 /* Build configuration list for PBXNativeTarget "SwiftBasicsUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +530,7 @@
 				EF2738C51BEB5CDA00A63637 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
