@@ -15,6 +15,7 @@
 		EF2738AE1BEB5CDA00A63637 /* SwiftBasicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2738AD1BEB5CDA00A63637 /* SwiftBasicsTests.swift */; };
 		EF2738B91BEB5CDA00A63637 /* SwiftBasicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2738B81BEB5CDA00A63637 /* SwiftBasicsUITests.swift */; };
 		EFEE059F1BF1E02C00DA2DD6 /* CollectionTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE059E1BF1E02C00DA2DD6 /* CollectionTypesViewController.swift */; };
+		EFEE05A21BF2334400DA2DD6 /* FunctionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE05A11BF2334400DA2DD6 /* FunctionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EF2738B81BEB5CDA00A63637 /* SwiftBasicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBasicsUITests.swift; sourceTree = "<group>"; };
 		EF2738BA1BEB5CDA00A63637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFEE059E1BF1E02C00DA2DD6 /* CollectionTypesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionTypesViewController.swift; sourceTree = "<group>"; };
+		EFEE05A11BF2334400DA2DD6 /* FunctionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 		EFEE05A01BF2231A00DA2DD6 /* Functions */ = {
 			isa = PBXGroup;
 			children = (
+				EFEE05A11BF2334400DA2DD6 /* FunctionsViewController.swift */,
 			);
 			name = Functions;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFEE05A21BF2334400DA2DD6 /* FunctionsViewController.swift in Sources */,
 				EF27389B1BEB5CDA00A63637 /* ViewController.swift in Sources */,
 				EFEE059F1BF1E02C00DA2DD6 /* CollectionTypesViewController.swift in Sources */,
 				EF2738991BEB5CDA00A63637 /* AppDelegate.swift in Sources */,

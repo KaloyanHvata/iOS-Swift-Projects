@@ -92,7 +92,7 @@ class CollectionTypesViewController: UIViewController {
         print(name,mph,top)
     }
     
-    //Helper Methods
+    //MARK : - Helper Methods
 
     func getCarDetails() -> (String, Int, Bool){
     
@@ -111,7 +111,7 @@ class CollectionTypesViewController: UIViewController {
     
 
     /*
-    // MARK: - Navigation
+   MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
