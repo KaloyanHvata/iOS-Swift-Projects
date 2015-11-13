@@ -88,10 +88,18 @@ class ViewController: UIViewController,AVAudioPlayerDelegate {
         }
         
         //Adding a shake function
-        
+       
         
     }
     //MARK: Helper Methods
+    
+    override func  motionBegan(motion: UIEventSubtype, withEvent event: UIEvent?) {
+    
+     getAnswerButtonPressed(self)
+        
+    }
+    
+    
     func playSound(fileName: String, fileExtension: String) throws{
     
         
