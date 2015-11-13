@@ -32,7 +32,7 @@
                                     <constraint firstAttribute="height" constant="193" id="nGF-rj-XJg"/>
                                     <constraint firstAttribute="width" constant="207" id="ntB-BV-jAJ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -42,6 +42,9 @@
                                 <state key="normal" title="Get Answer">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="getAnswerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ys9-6E-4aC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
@@ -56,6 +59,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Shake to get your answer" id="xkq-yb-smD"/>
+                    <connections>
+                        <outlet property="infoLabel" destination="nQu-oD-VFm" id="56e-4b-qnK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

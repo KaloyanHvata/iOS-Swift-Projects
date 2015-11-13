@@ -14,7 +14,7 @@
 		EF2A81F61BF36005005BBAD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2A81F41BF36005005BBAD0 /* LaunchScreen.storyboard */; };
 		EF2A82011BF36005005BBAD0 /* Magic8BallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2A82001BF36005005BBAD0 /* Magic8BallTests.swift */; };
 		EF2A820C1BF36005005BBAD0 /* Magic8BallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2A820B1BF36005005BBAD0 /* Magic8BallUITests.swift */; };
-		EF2A821B1BF368A8005BBAD0 /* 2015-08-10_20-00-37__shakesound.wav in Resources */ = {isa = PBXBuildFile; fileRef = EF2A821A1BF368A8005BBAD0 /* 2015-08-10_20-00-37__shakesound.wav */; };
+		EF2A821B1BF368A8005BBAD0 /* shakesound.wav in Resources */ = {isa = PBXBuildFile; fileRef = EF2A821A1BF368A8005BBAD0 /* shakesound.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		EF2A82071BF36005005BBAD0 /* Magic8BallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Magic8BallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF2A820B1BF36005005BBAD0 /* Magic8BallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic8BallUITests.swift; sourceTree = "<group>"; };
 		EF2A820D1BF36005005BBAD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF2A821A1BF368A8005BBAD0 /* 2015-08-10_20-00-37__shakesound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "2015-08-10_20-00-37__shakesound.wav"; sourceTree = "<group>"; };
+		EF2A821A1BF368A8005BBAD0 /* shakesound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shakesound.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +131,7 @@
 		EF2A82191BF3688B005BBAD0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EF2A821A1BF368A8005BBAD0 /* 2015-08-10_20-00-37__shakesound.wav */,
+				EF2A821A1BF368A8005BBAD0 /* shakesound.wav */,
 			);
 			name = "Support Files";
 			sourceTree = "<group>";
@@ -242,7 +242,7 @@
 			files = (
 				EF2A81F61BF36005005BBAD0 /* LaunchScreen.storyboard in Resources */,
 				EF2A81F31BF36005005BBAD0 /* Assets.xcassets in Resources */,
-				EF2A821B1BF368A8005BBAD0 /* 2015-08-10_20-00-37__shakesound.wav in Resources */,
+				EF2A821B1BF368A8005BBAD0 /* shakesound.wav in Resources */,
 				EF2A81F11BF36005005BBAD0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +496,7 @@
 				EF2A82121BF36005005BBAD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF2A82131BF36005005BBAD0 /* Build configuration list for PBXNativeTarget "Magic8BallTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +505,7 @@
 				EF2A82151BF36005005BBAD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF2A82161BF36005005BBAD0 /* Build configuration list for PBXNativeTarget "Magic8BallUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +514,7 @@
 				EF2A82181BF36005005BBAD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
