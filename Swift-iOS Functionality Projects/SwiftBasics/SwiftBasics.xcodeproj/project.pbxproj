@@ -14,6 +14,7 @@
 		EF2738A31BEB5CDA00A63637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2738A11BEB5CDA00A63637 /* LaunchScreen.storyboard */; };
 		EF2738AE1BEB5CDA00A63637 /* SwiftBasicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2738AD1BEB5CDA00A63637 /* SwiftBasicsTests.swift */; };
 		EF2738B91BEB5CDA00A63637 /* SwiftBasicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2738B81BEB5CDA00A63637 /* SwiftBasicsUITests.swift */; };
+		EF8B672F1BFF43DD00052F8E /* OptionalsAndMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8B672E1BFF43DD00052F8E /* OptionalsAndMoreViewController.swift */; };
 		EFEE059F1BF1E02C00DA2DD6 /* CollectionTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE059E1BF1E02C00DA2DD6 /* CollectionTypesViewController.swift */; };
 		EFEE05A21BF2334400DA2DD6 /* FunctionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEE05A11BF2334400DA2DD6 /* FunctionsViewController.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		EF2738B41BEB5CDA00A63637 /* SwiftBasicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBasicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF2738B81BEB5CDA00A63637 /* SwiftBasicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBasicsUITests.swift; sourceTree = "<group>"; };
 		EF2738BA1BEB5CDA00A63637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8B672E1BFF43DD00052F8E /* OptionalsAndMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalsAndMoreViewController.swift; sourceTree = "<group>"; };
 		EFEE059E1BF1E02C00DA2DD6 /* CollectionTypesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionTypesViewController.swift; sourceTree = "<group>"; };
 		EFEE05A11BF2334400DA2DD6 /* FunctionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +103,7 @@
 		EF2738971BEB5CDA00A63637 /* SwiftBasics */ = {
 			isa = PBXGroup;
 			children = (
+				EF8B672D1BFF439500052F8E /* Optionals, Binding, Enumerations and Code Safety */,
 				EFEE05A01BF2231A00DA2DD6 /* Functions */,
 				EFEE059B1BF1DE7F00DA2DD6 /* Collection Types */,
 				EFEE059A1BF1DE6D00DA2DD6 /* Basic Syntax */,
@@ -129,6 +132,14 @@
 				EF2738BA1BEB5CDA00A63637 /* Info.plist */,
 			);
 			path = SwiftBasicsUITests;
+			sourceTree = "<group>";
+		};
+		EF8B672D1BFF439500052F8E /* Optionals, Binding, Enumerations and Code Safety */ = {
+			isa = PBXGroup;
+			children = (
+				EF8B672E1BFF43DD00052F8E /* OptionalsAndMoreViewController.swift */,
+			);
+			name = "Optionals, Binding, Enumerations and Code Safety";
 			sourceTree = "<group>";
 		};
 		EFEE059A1BF1DE6D00DA2DD6 /* Basic Syntax */ = {
@@ -287,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFEE05A21BF2334400DA2DD6 /* FunctionsViewController.swift in Sources */,
+				EF8B672F1BFF43DD00052F8E /* OptionalsAndMoreViewController.swift in Sources */,
 				EF27389B1BEB5CDA00A63637 /* ViewController.swift in Sources */,
 				EFEE059F1BF1E02C00DA2DD6 /* CollectionTypesViewController.swift in Sources */,
 				EF2738991BEB5CDA00A63637 /* AppDelegate.swift in Sources */,
