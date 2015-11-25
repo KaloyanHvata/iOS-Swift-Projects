@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFEBA3781C05C9EF0087689E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEBA3771C05C9EF0087689E /* AppDelegate.swift */; };
+		EFEBA37D1C05C9EF0087689E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEBA37B1C05C9EF0087689E /* Main.storyboard */; };
+		EFEBA37F1C05C9EF0087689E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFEBA37E1C05C9EF0087689E /* Assets.xcassets */; };
+		EFEBA3821C05C9EF0087689E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEBA3801C05C9EF0087689E /* LaunchScreen.storyboard */; };
+		EFEBA38D1C05C9F00087689E /* MemoryCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEBA38C1C05C9F00087689E /* MemoryCalculatorTests.swift */; };
+		EFEBA3981C05C9F00087689E /* MemoryCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEBA3971C05C9F00087689E /* MemoryCalculatorUITests.swift */; };
+		EFEBA3A61C05CA320087689E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEBA3A51C05CA320087689E /* MainViewController.swift */; };
+		EFEBA3A81C05F11A0087689E /* TaxRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEBA3A71C05F11A0087689E /* TaxRateViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFEBA3891C05C9F00087689E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFEBA36C1C05C9EF0087689E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFEBA3731C05C9EF0087689E;
+			remoteInfo = MemoryCalculator;
+		};
+		EFEBA3941C05C9F00087689E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFEBA36C1C05C9EF0087689E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFEBA3731C05C9EF0087689E;
+			remoteInfo = MemoryCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFEBA3741C05C9EF0087689E /* MemoryCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEBA3771C05C9EF0087689E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFEBA37C1C05C9EF0087689E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFEBA37E1C05C9EF0087689E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFEBA3811C05C9EF0087689E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFEBA3831C05C9EF0087689E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFEBA3881C05C9EF0087689E /* MemoryCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEBA38C1C05C9F00087689E /* MemoryCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCalculatorTests.swift; sourceTree = "<group>"; };
+		EFEBA38E1C05C9F00087689E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFEBA3931C05C9F00087689E /* MemoryCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEBA3971C05C9F00087689E /* MemoryCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCalculatorUITests.swift; sourceTree = "<group>"; };
+		EFEBA3991C05C9F00087689E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFEBA3A51C05CA320087689E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EFEBA3A71C05F11A0087689E /* TaxRateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxRateViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFEBA3711C05C9EF0087689E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEBA3851C05C9EF0087689E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEBA3901C05C9F00087689E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFEBA36B1C05C9EF0087689E = {
+			isa = PBXGroup;
+			children = (
+				EFEBA3761C05C9EF0087689E /* MemoryCalculator */,
+				EFEBA38B1C05C9F00087689E /* MemoryCalculatorTests */,
+				EFEBA3961C05C9F00087689E /* MemoryCalculatorUITests */,
+				EFEBA3751C05C9EF0087689E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFEBA3751C05C9EF0087689E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFEBA3741C05C9EF0087689E /* MemoryCalculator.app */,
+				EFEBA3881C05C9EF0087689E /* MemoryCalculatorTests.xctest */,
+				EFEBA3931C05C9F00087689E /* MemoryCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFEBA3761C05C9EF0087689E /* MemoryCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				EFEBA3771C05C9EF0087689E /* AppDelegate.swift */,
+				EFEBA37B1C05C9EF0087689E /* Main.storyboard */,
+				EFEBA37E1C05C9EF0087689E /* Assets.xcassets */,
+				EFEBA3801C05C9EF0087689E /* LaunchScreen.storyboard */,
+				EFEBA3831C05C9EF0087689E /* Info.plist */,
+				EFEBA3A51C05CA320087689E /* MainViewController.swift */,
+				EFEBA3A71C05F11A0087689E /* TaxRateViewController.swift */,
+			);
+			path = MemoryCalculator;
+			sourceTree = "<group>";
+		};
+		EFEBA38B1C05C9F00087689E /* MemoryCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFEBA38C1C05C9F00087689E /* MemoryCalculatorTests.swift */,
+				EFEBA38E1C05C9F00087689E /* Info.plist */,
+			);
+			path = MemoryCalculatorTests;
+			sourceTree = "<group>";
+		};
+		EFEBA3961C05C9F00087689E /* MemoryCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFEBA3971C05C9F00087689E /* MemoryCalculatorUITests.swift */,
+				EFEBA3991C05C9F00087689E /* Info.plist */,
+			);
+			path = MemoryCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFEBA3731C05C9EF0087689E /* MemoryCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEBA39C1C05C9F00087689E /* Build configuration list for PBXNativeTarget "MemoryCalculator" */;
+			buildPhases = (
+				EFEBA3701C05C9EF0087689E /* Sources */,
+				EFEBA3711C05C9EF0087689E /* Frameworks */,
+				EFEBA3721C05C9EF0087689E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemoryCalculator;
+			productName = MemoryCalculator;
+			productReference = EFEBA3741C05C9EF0087689E /* MemoryCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFEBA3871C05C9EF0087689E /* MemoryCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEBA39F1C05C9F00087689E /* Build configuration list for PBXNativeTarget "MemoryCalculatorTests" */;
+			buildPhases = (
+				EFEBA3841C05C9EF0087689E /* Sources */,
+				EFEBA3851C05C9EF0087689E /* Frameworks */,
+				EFEBA3861C05C9EF0087689E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFEBA38A1C05C9F00087689E /* PBXTargetDependency */,
+			);
+			name = MemoryCalculatorTests;
+			productName = MemoryCalculatorTests;
+			productReference = EFEBA3881C05C9EF0087689E /* MemoryCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFEBA3921C05C9F00087689E /* MemoryCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEBA3A21C05C9F00087689E /* Build configuration list for PBXNativeTarget "MemoryCalculatorUITests" */;
+			buildPhases = (
+				EFEBA38F1C05C9F00087689E /* Sources */,
+				EFEBA3901C05C9F00087689E /* Frameworks */,
+				EFEBA3911C05C9F00087689E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFEBA3951C05C9F00087689E /* PBXTargetDependency */,
+			);
+			name = MemoryCalculatorUITests;
+			productName = MemoryCalculatorUITests;
+			productReference = EFEBA3931C05C9F00087689E /* MemoryCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFEBA36C1C05C9EF0087689E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = kaloyanpetrov;
+				TargetAttributes = {
+					EFEBA3731C05C9EF0087689E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					EFEBA3871C05C9EF0087689E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EFEBA3731C05C9EF0087689E;
+					};
+					EFEBA3921C05C9F00087689E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EFEBA3731C05C9EF0087689E;
+					};
+				};
+			};
+			buildConfigurationList = EFEBA36F1C05C9EF0087689E /* Build configuration list for PBXProject "MemoryCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFEBA36B1C05C9EF0087689E;
+			productRefGroup = EFEBA3751C05C9EF0087689E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFEBA3731C05C9EF0087689E /* MemoryCalculator */,
+				EFEBA3871C05C9EF0087689E /* MemoryCalculatorTests */,
+				EFEBA3921C05C9F00087689E /* MemoryCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFEBA3721C05C9EF0087689E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEBA3821C05C9EF0087689E /* LaunchScreen.storyboard in Resources */,
+				EFEBA37F1C05C9EF0087689E /* Assets.xcassets in Resources */,
+				EFEBA37D1C05C9EF0087689E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEBA3861C05C9EF0087689E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEBA3911C05C9F00087689E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFEBA3701C05C9EF0087689E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEBA3781C05C9EF0087689E /* AppDelegate.swift in Sources */,
+				EFEBA3A81C05F11A0087689E /* TaxRateViewController.swift in Sources */,
+				EFEBA3A61C05CA320087689E /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEBA3841C05C9EF0087689E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEBA38D1C05C9F00087689E /* MemoryCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEBA38F1C05C9F00087689E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEBA3981C05C9F00087689E /* MemoryCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFEBA38A1C05C9F00087689E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFEBA3731C05C9EF0087689E /* MemoryCalculator */;
+			targetProxy = EFEBA3891C05C9F00087689E /* PBXContainerItemProxy */;
+		};
+		EFEBA3951C05C9F00087689E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFEBA3731C05C9EF0087689E /* MemoryCalculator */;
+			targetProxy = EFEBA3941C05C9F00087689E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFEBA37B1C05C9EF0087689E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFEBA37C1C05C9EF0087689E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFEBA3801C05C9EF0087689E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFEBA3811C05C9EF0087689E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFEBA39A1C05C9F00087689E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFEBA39B1C05C9F00087689E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFEBA39D1C05C9F00087689E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MemoryCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kaloyanpetrov.com.MemoryCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFEBA39E1C05C9F00087689E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MemoryCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kaloyanpetrov.com.MemoryCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFEBA3A01C05C9F00087689E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MemoryCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kaloyanpetrov.com.MemoryCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemoryCalculator.app/MemoryCalculator";
+			};
+			name = Debug;
+		};
+		EFEBA3A11C05C9F00087689E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MemoryCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kaloyanpetrov.com.MemoryCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemoryCalculator.app/MemoryCalculator";
+			};
+			name = Release;
+		};
+		EFEBA3A31C05C9F00087689E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MemoryCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kaloyanpetrov.com.MemoryCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MemoryCalculator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EFEBA3A41C05C9F00087689E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MemoryCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kaloyanpetrov.com.MemoryCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MemoryCalculator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFEBA36F1C05C9EF0087689E /* Build configuration list for PBXProject "MemoryCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEBA39A1C05C9F00087689E /* Debug */,
+				EFEBA39B1C05C9F00087689E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFEBA39C1C05C9F00087689E /* Build configuration list for PBXNativeTarget "MemoryCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEBA39D1C05C9F00087689E /* Debug */,
+				EFEBA39E1C05C9F00087689E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFEBA39F1C05C9F00087689E /* Build configuration list for PBXNativeTarget "MemoryCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEBA3A01C05C9F00087689E /* Debug */,
+				EFEBA3A11C05C9F00087689E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFEBA3A21C05C9F00087689E /* Build configuration list for PBXNativeTarget "MemoryCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEBA3A31C05C9F00087689E /* Debug */,
+				EFEBA3A41C05C9F00087689E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFEBA36C1C05C9EF0087689E /* Project object */;
+}
