@@ -37,6 +37,27 @@ class MainViewController: UIViewController,AVAudioPlayerDelegate {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        if let chipBalance = defaults.stringForKey("currentChipBalance") {
+            currentChipBalance = Int(chipBalance)
+            defaults.synchronize()
+        }
+        
+        if currentChipBalance == nil || currentChipBalance < 250 {
+            addChipsButton.hidden = false
+            statusLabel.hidden = false
+            statusLabel.text = "You need more chips to play, press the red chip in the top right to get some."
+            rollButton.hidden = true
+            rollToPointButton.hidden = true
+            
+        } else {
+            balanceLabel.text = defaults.stringForKey("currentChipBalance")
+            currentChipBalance = Int(defaults.stringForKey("currentChipBalance")!)
+            defaults.synchronize()
+            rollButton.hidden = false
+        }
+        
+    
+
     }
 
     override func didReceiveMemoryWarning() {
