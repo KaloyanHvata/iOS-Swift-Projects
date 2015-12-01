@@ -224,6 +224,7 @@
 				TargetAttributes = {
 					EF0C47321C0742AA0055C970 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 39PN2NJNW4;
 					};
 					EF0C47491C0742AA0055C970 = {
 						CreatedOnToolsVersion = 7.1;
@@ -435,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MedicalHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kaloyanpetrov.com.MedicalHelper;
@@ -446,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MedicalHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kaloyanpetrov.com.MedicalHelper;
@@ -520,6 +523,7 @@
 				EF0C47601C0742AA0055C970 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF0C47611C0742AA0055C970 /* Build configuration list for PBXNativeTarget "MedicalHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +532,7 @@
 				EF0C47631C0742AA0055C970 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF0C47641C0742AA0055C970 /* Build configuration list for PBXNativeTarget "MedicalHelperUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +541,7 @@
 				EF0C47661C0742AA0055C970 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
