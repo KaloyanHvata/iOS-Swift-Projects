@@ -224,7 +224,7 @@
 				TargetAttributes = {
 					EF0C47321C0742AA0055C970 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 39PN2NJNW4;
+						DevelopmentTeam = 8937HXVK7Z;
 					};
 					EF0C47491C0742AA0055C970 = {
 						CreatedOnToolsVersion = 7.1;
@@ -439,7 +439,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MedicalHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kaloyanpetrov.com.MedicalHelper;
+				PRODUCT_BUNDLE_IDENTIFIER = engineerkaloyanpetrov.com.MedicalHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -451,7 +451,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MedicalHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kaloyanpetrov.com.MedicalHelper;
+				PRODUCT_BUNDLE_IDENTIFIER = engineerkaloyanpetrov.com.MedicalHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
