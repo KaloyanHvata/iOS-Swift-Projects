@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					EFEBA3731C05C9EF0087689E = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8937HXVK7Z;
 					};
 					EFEBA3871C05C9EF0087689E = {
 						CreatedOnToolsVersion = 7.1;
@@ -403,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MemoryCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kaloyanpetrov.com.MemoryCalculator;
@@ -414,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MemoryCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kaloyanpetrov.com.MemoryCalculator;
@@ -488,6 +491,7 @@
 				EFEBA39E1C05C9F00087689E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFEBA39F1C05C9F00087689E /* Build configuration list for PBXNativeTarget "MemoryCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +500,7 @@
 				EFEBA3A11C05C9F00087689E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFEBA3A21C05C9F00087689E /* Build configuration list for PBXNativeTarget "MemoryCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				EFEBA3A41C05C9F00087689E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

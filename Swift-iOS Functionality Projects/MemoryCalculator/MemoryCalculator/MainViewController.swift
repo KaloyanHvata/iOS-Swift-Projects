@@ -171,29 +171,27 @@ class MainViewController: UIViewController {
     @IBAction func memoryButtonPressed(sender: UIButton) {
         
         
-            memoryType = sender.currentTitle!
+        memoryType = sender.currentTitle!
         
-        switch memoryType{
-        
-            case "M+":
-                saveNumber = saveNumber + displayValue
-                defaults.setDouble(saveNumber, forKey: "saved")
-            case "M-":
-                saveNumber = saveNumber - displayValue
-                defaults.setDouble(saveNumber, forKey: "saved")
-            case "MR":
-              displayValue = defaults.doubleForKey("saved")
+        switch memoryType {
             
-            case "MR":
-                defaults.removeObjectForKey("saved")
-                displayLabel.text = "0"
-            case "CA":
-                defaults.removeObjectForKey("saved")
-                clearButtonPressed(self)
-            default:
-                break
+        case "M+":
+            saveNumber = saveNumber + displayValue
+            defaults.setDouble(saveNumber, forKey: "saved")
+        case "M-":
+            saveNumber = saveNumber - displayValue
+            defaults.setDouble(saveNumber, forKey: "saved")
+        case "MR":
+            displayValue = defaults.doubleForKey("saved")
+        case "MC":
+            defaults.removeObjectForKey("saved")
+            displayLabel.text = "0"
+        case "CA":
+            defaults.removeObjectForKey("saved")
+            clearButtonPressed(self)
+        default:
+            break
             
-
         }
         
     }
@@ -219,18 +217,12 @@ class MainViewController: UIViewController {
     @IBAction func percentButtonPressed(sender: AnyObject) {
         
         numberTwo = displayValue
+        
         if currentOperator == "+" || currentOperator == "-" {
-        
             displayValue = (numberTwo / 100) * numberOne
-        
-        }else if currentOperator == "/" || currentOperator == "*"{
-            
+        } else if currentOperator == "/" || currentOperator == "*" {
             displayValue = (numberTwo / 100)
-        
         }
-        
-        
-        
         
     }
     
