@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9xc-6H-wzg">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--JSON "iTunes" Parser-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="JsonParserViewController" customModule="JSON_XMLparsingDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New iTunes Titles" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQq-lF-M7P">
+                                <rect key="frame" x="20" y="72" width="560" height="40"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ykL-n3-pLX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="iTunes Titles..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="r6q-jq-mGi">
+                                <rect key="frame" x="20" y="120" width="560" height="460"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="r6q-jq-mGi" secondAttribute="bottom" constant="20" symbolic="YES" id="IRj-Hk-fdE"/>
+                            <constraint firstItem="r6q-jq-mGi" firstAttribute="trailing" secondItem="wQq-lF-M7P" secondAttribute="trailing" id="Io0-nw-2my"/>
+                            <constraint firstItem="r6q-jq-mGi" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="TX2-QN-iJA"/>
+                            <constraint firstItem="r6q-jq-mGi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="lqX-kn-Knr"/>
+                            <constraint firstItem="r6q-jq-mGi" firstAttribute="top" secondItem="wQq-lF-M7P" secondAttribute="bottom" constant="8" symbolic="YES" id="m1I-GB-som"/>
+                            <constraint firstItem="wQq-lF-M7P" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="xcR-8m-VQU"/>
+                            <constraint firstItem="r6q-jq-mGi" firstAttribute="leading" secondItem="wQq-lF-M7P" secondAttribute="leading" id="z8q-Fx-hmh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="JSON &quot;iTunes&quot; Parser" id="2tg-Wy-yE9">
+                        <barButtonItem key="rightBarButtonItem" title="XML" id="4QW-Kh-NJ3">
+                            <connections>
+                                <segue destination="8cz-VB-VqU" kind="show" id="wAc-FJ-0ZF"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="r6q-jq-mGi" id="khQ-dn-m4p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1057" y="311"/>
+        </scene>
+        <!--XML Parser-->
+        <scene sceneID="c60-Ql-cGf">
+            <objects>
+                <viewController id="8cz-VB-VqU" customClass="XmlParserViewController" customModule="JSON_XMLparsingDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KvO-Ki-Ztb"/>
+                        <viewControllerLayoutGuide type="bottom" id="bN9-aO-Y3N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UFw-RG-w5A">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Articles from Apple" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3SC-WS-lJ4">
+                                <rect key="frame" x="20" y="72" width="560" height="32"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="uhm-rX-gG4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Apple Articles..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mfi-bx-hiR">
+                                <rect key="frame" x="20" y="112" width="560" height="468"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3SC-WS-lJ4" firstAttribute="trailing" secondItem="mfi-bx-hiR" secondAttribute="trailing" id="2aK-VA-v4C"/>
+                            <constraint firstItem="mfi-bx-hiR" firstAttribute="top" secondItem="3SC-WS-lJ4" secondAttribute="bottom" constant="8" symbolic="YES" id="HCD-th-A4T"/>
+                            <constraint firstAttribute="bottom" secondItem="mfi-bx-hiR" secondAttribute="bottom" constant="20" symbolic="YES" id="Ufl-aR-PqO"/>
+                            <constraint firstItem="3SC-WS-lJ4" firstAttribute="top" secondItem="KvO-Ki-Ztb" secondAttribute="bottom" constant="8" symbolic="YES" id="ec0-qb-yyn"/>
+                            <constraint firstItem="3SC-WS-lJ4" firstAttribute="leading" secondItem="UFw-RG-w5A" secondAttribute="leadingMargin" id="fhL-yr-H6o"/>
+                            <constraint firstItem="3SC-WS-lJ4" firstAttribute="trailing" secondItem="UFw-RG-w5A" secondAttribute="trailingMargin" id="m4r-UZ-55w"/>
+                            <constraint firstItem="3SC-WS-lJ4" firstAttribute="leading" secondItem="mfi-bx-hiR" secondAttribute="leading" id="wnd-Xh-17a"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="XML Parser" id="wBK-jT-JLb"/>
+                    <connections>
+                        <outlet property="textView" destination="mfi-bx-hiR" id="d7w-iE-fWQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0gU-gf-kYa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1808" y="311"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="yk7-4W-hPf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9xc-6H-wzg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="c0M-ph-clH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="VAh-F1-jyQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cRi-xn-tpG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="-381"/>
+        </scene>
+    </scenes>
+</document>
