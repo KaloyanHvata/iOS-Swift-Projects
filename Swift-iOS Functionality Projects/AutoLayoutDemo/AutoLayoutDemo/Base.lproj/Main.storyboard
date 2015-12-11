@@ -108,7 +108,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="dWw-Py-EVa">
                                         <rect key="frame" x="0.0" y="484" width="580" height="32"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1k-XY-0dx">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1k-XY-0dx">
                                                 <rect key="frame" x="0.0" y="0.0" width="285" height="32"/>
                                                 <animations/>
                                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -117,7 +117,7 @@
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4og-Vl-dcO">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4og-Vl-dcO">
                                                 <rect key="frame" x="295" y="0.0" width="285" height="32"/>
                                                 <animations/>
                                                 <color key="backgroundColor" red="0.0" green="0.76586174242424243" blue="0.00023444850187589198" alpha="1" colorSpace="calibratedRGB"/>
