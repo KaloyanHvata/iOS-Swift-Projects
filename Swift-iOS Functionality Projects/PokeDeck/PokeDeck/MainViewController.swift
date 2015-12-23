@@ -27,6 +27,7 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
         collectionView.delegate = self
         collectionView.dataSource = self
         searchBar.delegate = self
+        searchBar.returnKeyType = UIReturnKeyType.Done
         
         initAudio()
         parsePokemonCSV()
@@ -103,16 +104,35 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     //MARK: DataSOurce and Delegate
+    func searchBar (searchBar: UISearchBar ,searchText :NSString){
+        
+    if (searchText == 0) {
+        searchBar.resignFirstResponder()
+    }
+    }
+    
+ 
+    
     func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
         
         
         if searchBar.text == nil || searchBar.text == ""{
+            
+            view.endEditing(true)
             inSearchMode = false
+            collectionView.reloadData()
+            
         }else {
+            
             inSearchMode = true
             let lower = searchBar.text!.lowercaseString
             filteredPokemon = pokemon.filter({$0.name.rangeOfString(lower) != nil })
+            collectionView.reloadData()
         }
+    }
+    
+    func searchBarSearchButtonClicked(searchBar: UISearchBar) {
+        view.endEditing(true)
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
@@ -120,7 +140,18 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
         
         if let cell = collectionView.dequeueReusableCellWithReuseIdentifier("PokeCell", forIndexPath: indexPath) as? PokeCollectionViewCell {
         
-            let poke = pokemon[indexPath.row]
+            let poke:Pokemon!
+            
+            //checking if in search mode
+            if inSearchMode{
+            
+                poke = filteredPokemon[indexPath.row]
+            
+            }else{
+            
+                poke = pokemon[indexPath.row]
+            
+            }
             cell.configureCell(poke)
             
             return cell
@@ -131,14 +162,35 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
         }
         
     }
+    
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        //
+        
+        var poke: Pokemon!
+        
+        if inSearchMode{
+            poke = filteredPokemon[indexPath.row]
+        
+        }else{
+            poke = pokemon[indexPath.row]
+        }
+        performSegueWithIdentifier("PokemonDetailVC", sender: poke)
+        
     }
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
+        if inSearchMode {
+            
+        return filteredPokemon.count
+            
+        }else{
+            
         return pokemon.count
+            
+        }
+        
     }
+    
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 1
     }
@@ -148,7 +200,20 @@ class MainViewController: UIViewController, UICollectionViewDelegate, UICollecti
         return CGSizeMake(105, 105)
     }
     
+    //MARK: -Navigation
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "PokemonDetailVC"{
+        
+            if let detailVC = segue.destinationViewController as? PokemonDetailViewController{
+            
+                if let poke = sender as? Pokemon{
+                
+                    detailVC.pokemon = poke
+                }
+            }
+        }
     
+    }
     
     
     
