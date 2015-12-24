@@ -26,13 +26,48 @@ class PokemonDetailViewController: UIViewController {
     @IBOutlet weak var evolutionTextLabel: UILabel!
     
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        
         nameLabel.text = pokemon.name
+        let image = UIImage(named: "\(pokemon.pokedexId)")
+        mainImage.image = image
+        currentEvolutionImage.image = image
+        
+        pokemon.downloadPokemonDetails { () -> () in
+            //this is called after download is done
+            self.updateUI()
+        }
+    }
+    
+    
+    func updateUI(){
+      
+            descriptionLabel.text = pokemon.description
+            typeLabel.text = pokemon.type
+            defenceLabel.text = pokemon.defense
+            baseAttackLabel.text = pokemon.attack
+            pokedexIdLabel.text = "\(pokemon.pokedexId)"
+            weightLabel.text = pokemon.weight
+            heightLabel.text = pokemon.height
+        
+        if pokemon.nextEvolutionId == "" {
+          evolutionTextLabel.text = "No Evolutions!"
+            nextEvolutionImage.hidden = true
+        }else{
+          nextEvolutionImage.hidden = false
+          nextEvolutionImage.image = UIImage(named: pokemon.nextEvolutionId)
+            
+          var str = "Next Evolution: \(pokemon.nextEvolutionTxt)"
+            if pokemon.nextEvolutionLvl != "" {
+                str += "-LVL \(pokemon.nextEvolutionLvl)"
+             evolutionTextLabel.text = str
+                
+            }
+        }
+        
+        
         
     }
 
@@ -40,6 +75,7 @@ class PokemonDetailViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+  
     
     
     

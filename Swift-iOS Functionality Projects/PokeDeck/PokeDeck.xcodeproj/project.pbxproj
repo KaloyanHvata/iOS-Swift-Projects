@@ -20,6 +20,7 @@
 		EF0604BE1C26C39B0053739E /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0604BD1C26C39B0053739E /* csv.swift */; };
 		EF0604C21C26D7DA0053739E /* Pokemon_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF0604C11C26D7DA0053739E /* Pokemon_Solid.ttf */; };
 		EF0604C41C26DD850053739E /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF0604C31C26DD850053739E /* music.mp3 */; };
+		EF2996501C2BD1600092BDB4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF29964F1C2BD1600092BDB4 /* Constants.swift */; };
 		EFEB88BB1C295590005AD99D /* PokemonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEB88BA1C295590005AD99D /* PokemonDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		EF0604BD1C26C39B0053739E /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		EF0604C11C26D7DA0053739E /* Pokemon_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pokemon_Solid.ttf; sourceTree = "<group>"; };
 		EF0604C31C26DD850053739E /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		EF29964F1C2BD1600092BDB4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EFEB88BA1C295590005AD99D /* PokemonDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				EF0604BD1C26C39B0053739E /* csv.swift */,
+				EF29964F1C2BD1600092BDB4 /* Constants.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				TargetAttributes = {
 					EF0463E41C2024D700FFDB04 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8937HXVK7Z;
 					};
 				};
 			};
@@ -284,6 +288,7 @@
 				EF0463E91C2024D800FFDB04 /* AppDelegate.swift in Sources */,
 				EF0463F11C2024D800FFDB04 /* PokeDeck.xcdatamodeld in Sources */,
 				EF0604BB1C26B77B0053739E /* MainViewController.swift in Sources */,
+				EF2996501C2BD1600092BDB4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +402,7 @@
 			baseConfigurationReference = E1E7FCFD06B38B6C1F0F0FCC /* Pods-PokeDeck.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PokeDeck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kaloyanpetrov.com.PokeDeck;
@@ -409,6 +415,7 @@
 			baseConfigurationReference = 27523605DF5CA19634ECF82C /* Pods-PokeDeck.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PokeDeck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kaloyanpetrov.com.PokeDeck;
