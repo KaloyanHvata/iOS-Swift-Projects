@@ -139,8 +139,11 @@ class Pokemon {
     
     //Parsing JSON from the API
     func downloadPokemonDetails(completed: DownloadComplete) {
+       
+  
         
-        let url = NSURL(string: _resourceUrl)!
+        
+        let url = NSURL(string: self._resourceUrl)!
         
         Alamofire.request(.GET,url).responseJSON { response in
             let result = response.result
@@ -241,12 +244,20 @@ class Pokemon {
                 }
             }
         }
-    }
-    
-    
-    
-    
-    
-    
-    
+      }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -35,14 +35,27 @@ class PokemonDetailViewController: UIViewController {
         mainImage.image = image
         currentEvolutionImage.image = image
         
-        pokemon.downloadPokemonDetails { () -> () in
+        
+        let q = dispatch_queue_create("pokemonQueue", nil)
+        
+        dispatch_async(q){
+         self.pokemon.downloadPokemonDetails { () -> () in
             //this is called after download is done
-            self.updateUI()
+            
+            dispatch_async(dispatch_get_main_queue()) {
+                    
+                self.updateUI()
+                
+            }
+          }
         }
     }
     
     
     func updateUI(){
+        
+        
+
       
             descriptionLabel.text = pokemon.description
             typeLabel.text = pokemon.type
