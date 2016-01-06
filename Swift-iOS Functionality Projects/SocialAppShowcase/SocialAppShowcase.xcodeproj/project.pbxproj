@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		D600F94187F35601DB1084D4 /* Pods_SocialAppShowcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0AD1A2D9BCC86C0120D00C /* Pods_SocialAppShowcase.framework */; };
 		EF30EFF11C33E8CD00B5CEC2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF30EFF01C33E8CD00B5CEC2 /* Constants.swift */; };
+		EF33916E1C3AA3010070ECE5 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF33916D1C3AA3010070ECE5 /* DataService.swift */; };
 		EFEC9C5C1C38133E00D4A105 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEC9C5B1C38133E00D4A105 /* MaterialButton.swift */; };
 		EFEC9C5F1C38180E00D4A105 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEC9C5E1C38180E00D4A105 /* MaterialTextField.swift */; };
 		EFEC9C641C381FC700D4A105 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEC9C611C381FC700D4A105 /* Bolts.framework */; };
 		EFEC9C651C381FC700D4A105 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEC9C621C381FC700D4A105 /* FBSDKCoreKit.framework */; };
 		EFEC9C661C381FC700D4A105 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEC9C631C381FC700D4A105 /* FBSDKLoginKit.framework */; };
+		EFEDC4251C3BB75F00150E4E /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDC4241C3BB75F00150E4E /* FeedViewController.swift */; };
+		EFEDC4271C3BBC1100150E4E /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDC4261C3BBC1100150E4E /* PostTableViewCell.swift */; };
+		EFEDC4291C3BD97E00150E4E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDC4281C3BD97E00150E4E /* Post.swift */; };
 		EFF433BF1C313BDC008B4029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF433BE1C313BDC008B4029 /* AppDelegate.swift */; };
 		EFF433C11C313BDC008B4029 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF433C01C313BDC008B4029 /* ViewController.swift */; };
 		EFF433C41C313BDC008B4029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF433C21C313BDC008B4029 /* Main.storyboard */; };
@@ -31,11 +35,15 @@
 		1F0AD1A2D9BCC86C0120D00C /* Pods_SocialAppShowcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialAppShowcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		811D5F5B9679D473872FA397 /* Pods-SocialAppShowcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialAppShowcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialAppShowcase/Pods-SocialAppShowcase.release.xcconfig"; sourceTree = "<group>"; };
 		EF30EFF01C33E8CD00B5CEC2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EF33916D1C3AA3010070ECE5 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		EFEC9C5B1C38133E00D4A105 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		EFEC9C5E1C38180E00D4A105 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
 		EFEC9C611C381FC700D4A105 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		EFEC9C621C381FC700D4A105 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		EFEC9C631C381FC700D4A105 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		EFEDC4241C3BB75F00150E4E /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		EFEDC4261C3BBC1100150E4E /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		EFEDC4281C3BD97E00150E4E /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		EFF433BB1C313BDC008B4029 /* SocialAppShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialAppShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF433BE1C313BDC008B4029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFF433C01C313BDC008B4029 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +98,14 @@
 			name = Util;
 			sourceTree = "<group>";
 		};
+		EF33916C1C3AA2D90070ECE5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EF33916D1C3AA3010070ECE5 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		EFEC9C601C381FB500D4A105 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,13 +138,12 @@
 			isa = PBXGroup;
 			children = (
 				EFEC9C601C381FB500D4A105 /* Frameworks */,
+				EF33916C1C3AA2D90070ECE5 /* Services */,
 				EF30EFEF1C33E8BA00B5CEC2 /* Util */,
-				EFF433D31C313C04008B4029 /* Resources */,
 				EFF433D21C313BFE008B4029 /* Model */,
 				EFF433D11C313BF7008B4029 /* View */,
 				EFF433D01C313BEE008B4029 /* Controller */,
 				EFF433BE1C313BDC008B4029 /* AppDelegate.swift */,
-				EFF433C01C313BDC008B4029 /* ViewController.swift */,
 				EFF433C21C313BDC008B4029 /* Main.storyboard */,
 				EFF433C51C313BDC008B4029 /* Assets.xcassets */,
 				EFF433C71C313BDC008B4029 /* LaunchScreen.storyboard */,
@@ -140,6 +155,9 @@
 		EFF433D01C313BEE008B4029 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EFF433C01C313BDC008B4029 /* ViewController.swift */,
+				EFEDC4241C3BB75F00150E4E /* FeedViewController.swift */,
+				EFF433D31C313C04008B4029 /* Resources */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -150,6 +168,7 @@
 				EFF433DC1C3148D1008B4029 /* MaterialView.swift */,
 				EFEC9C5B1C38133E00D4A105 /* MaterialButton.swift */,
 				EFEC9C5E1C38180E00D4A105 /* MaterialTextField.swift */,
+				EFEDC4261C3BBC1100150E4E /* PostTableViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -157,6 +176,7 @@
 		EFF433D21C313BFE008B4029 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EFEDC4281C3BD97E00150E4E /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -299,11 +319,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFEC9C5F1C38180E00D4A105 /* MaterialTextField.swift in Sources */,
+				EF33916E1C3AA3010070ECE5 /* DataService.swift in Sources */,
 				EFF433DD1C3148D1008B4029 /* MaterialView.swift in Sources */,
 				EFF433C11C313BDC008B4029 /* ViewController.swift in Sources */,
 				EFF433BF1C313BDC008B4029 /* AppDelegate.swift in Sources */,
 				EF30EFF11C33E8CD00B5CEC2 /* Constants.swift in Sources */,
+				EFEDC4251C3BB75F00150E4E /* FeedViewController.swift in Sources */,
 				EFEC9C5C1C38133E00D4A105 /* MaterialButton.swift in Sources */,
+				EFEDC4271C3BBC1100150E4E /* PostTableViewCell.swift in Sources */,
+				EFEDC4291C3BD97E00150E4E /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +441,7 @@
 			baseConfigurationReference = 105605DC9EA6F4F71BABACA4 /* Pods-SocialAppShowcase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SocialAppShowcase",
@@ -433,6 +458,7 @@
 			baseConfigurationReference = 811D5F5B9679D473872FA397 /* Pods-SocialAppShowcase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SocialAppShowcase",
